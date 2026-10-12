@@ -1,0 +1,88 @@
+{
+  "hla-wm": {
+    "source": "HLA_publish/hla-wm/docs/comparisons/method.png",
+    "type": "original method figure",
+    "source_url": "https://arxiv.org/abs/2610.05739"
+  },
+  "hla": {
+    "source": "HLA_publish/docs/assets/hla-method.png",
+    "type": "original method figure",
+    "source_url": "https://arxiv.org/abs/2610.05842"
+  },
+  "flashblock": {
+    "source": "dllm/FalshBlock/assets/images/method.png",
+    "type": "original method figure",
+    "source_url": "https://caesarhhh.github.io/FlashBlock/"
+  },
+  "self-aligned-forcing": {
+    "page": 4,
+    "figure": 3,
+    "crop_pdf_points": [
+      106,
+      80,
+      506,
+      255
+    ],
+    "source_url": "https://arxiv.org/abs/2609.38114"
+  },
+  "sparsevar": {
+    "page": 4,
+    "figure": 4,
+    "crop_pdf_points": [
+      57,
+      72,
+      555,
+      220
+    ],
+    "source_url": "https://arxiv.org/abs/2507.20454"
+  },
+  "rstitch": {
+    "page": 4,
+    "figure": 2,
+    "crop_pdf_points": [
+      54,
+      72,
+      543,
+      213
+    ],
+    "source_url": "https://arxiv.org/abs/2507.17307"
+  },
+  "fusion": {
+    "page": 3,
+    "figure": 3,
+    "crop_pdf_points": [
+      57,
+      69,
+      555,
+      205
+    ],
+    "source_url": "https://arxiv.org/abs/2412.01289"
+  },
+  "sr": {
+    "page": 4,
+    "figure": 1,
+    "crop_pdf_points": [
+      107,
+      70,
+      507,
+      263
+    ],
+    "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/ec3d49763c653ad7c8d587f52220c129-Paper-Conference.pdf"
+  },
+  "microaction": {
+    "page": 6,
+    "figure": 3,
+    "crop_pdf_points": [
+      37,
+      60,
+      554,
+      250
+    ],
+    "source_url": "https://tanmingkui.github.io/files/publications/Temporal_MA.pdf"
+  },
+  "dynamics": {
+    "status": "awaiting accessible PDF or original figure",
+    "paper_url": "https://openreview.net/forum?id=CAkj6hGR35",
+    "conference_url": "https://neurips.cc/virtual/2026/poster/154629"
+  }
+}

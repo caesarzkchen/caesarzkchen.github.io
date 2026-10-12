@@ -11,12 +11,12 @@ Open http://127.0.0.1:8000 on the same machine. On a remote machine, forward por
 ## Editing
 
 - `publications.json`: all 10 publications, authors, venues, links, research topics. Author order and venue/year follow the user's supplied Scholar list (2026-10-12). `self_index` identifies Zhuokun Chen; R-Stitch's second Z Chen is a different author.
-- `self_cofirst: true` marks Zhuokun Chen as a co-first author. Per his clarification on 2026-10-12, all four currently listed papers where he is not first in author order have this designation. Other authors’ contribution roles are not inferred.
+- `cofirst_indices` explicitly lists authors marked with equal-contribution asterisks. Per the user’s correction on 2026-10-12, on the four papers where he is not first, mark everyone from the first author through Zhuokun Chen inclusive; preserve the original author order.
 - `build.py`: introduction, selected projects and page structure. Run `python build.py` after editing the data or template. Python standard library only.
 - `styles.css`: responsive layout and visual design.
 - `script.js`: publication filtering and search. All publications remain readable without JavaScript.
 
-Citation counts are intentionally omitted because they change. No degree, current affiliation, supervisor relationship, education history, photo or contact address is asserted. The biography is a draft synthesized from the supplied research titles. Selected-work illustrations are decorative CSS compositions, not paper figures or experimental results.
+Citation counts are intentionally omitted because they change. No degree, current affiliation, supervisor relationship, education history, photo or contact address is asserted. The biography is a draft synthesized from the supplied research titles. Publication thumbnails and selected-work cards use original method figures. Click any thumbnail to open the full-size image. Figure sources and PDF crop coordinates are recorded in `assets/papers/sources.json`. Dynamics-Aware is awaiting a confirmed PDF or figure source.
 
 ## Sources
 

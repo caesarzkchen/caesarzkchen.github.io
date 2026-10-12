@@ -12,11 +12,13 @@ def links(p):
 def paper(p):
     authors = p['authors'].split(', ')
     authors = [e(a) for a in authors]
-    marker = '<sup title="Co-first author (equal contribution)">*</sup>' if p.get('self_cofirst') else ''
-    authors[p['self_index']] = f'<strong>Zhuokun Chen{marker}</strong>'
+    authors[p['self_index']] = '<strong>Zhuokun Chen</strong>'
+    for i in p.get('cofirst_indices', []):
+        authors[i] += '<sup title="Co-first author (equal contribution)">*</sup>'
     authors = ', '.join(authors)
+    figure = (f'<a class="paper-figure" href="{e(p["image"], quote=True)}" target="_blank" rel="noopener" aria-label="View method figure: {e(p["title"], quote=True)}"><img src="{e(p["image"], quote=True)}" alt="{e(p["image_alt"], quote=True)}" loading="lazy" decoding="async"></a>' if p.get('image') else '')
     return f'''<article class="paper" data-topic="{e(p['topic'])}" data-year="{p['year']}">
-    <div class="paper-year">{p['year']}</div><div><span class="venue">{e(p['venue'])}</span>
+    <div class="paper-media"><div class="paper-year">{p['year']}</div>{figure}</div><div><span class="venue">{e(p['venue'])}</span>
     <h3><a href="{e(next(iter(p['links'].values())), quote=True)}">{e(p['title'])}</a></h3>
     <p class="authors">{authors}</p><div class="paper-links">{links(p)}</div></div></article>'''
 
@@ -26,7 +28,7 @@ for slug, label, blurb, diagram in [
     ('hla', 'HLA', 'Expressive hybrid linear attention through chunk-wise dynamic mixing.', 'memory'),
     ('flashblock', 'FlashBlock', 'Attention caching for efficient long-context block diffusion.', 'blocks')]:
     p = next(x for x in data if x['id'] == slug)
-    cards.append(f'''<article class="work-card"><div class="work-art {diagram}" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><i>{ {'world':'SPACE × TIME','memory':'SELECT · MIX · REMEMBER','blocks':'REUSE · GENERATE'}[diagram] }</i></div><div class="work-copy"><span class="eyebrow">{e(p['venue'])} · {p['year']}</span><h3>{label}</h3><p>{blurb}</p><div class="paper-links">{links(p)}</div></div></article>''')
+    cards.append(f'''<article class="work-card"><a class="work-figure" href="{e(p['image'], quote=True)}" target="_blank" rel="noopener" aria-label="View method figure: {e(p['title'], quote=True)}"><img src="{e(p['image'], quote=True)}" alt="{e(p['image_alt'], quote=True)}" loading="lazy" decoding="async"></a><div class="work-copy"><span class="eyebrow">{e(p['venue'])} · {p['year']}</span><h3>{label}</h3><p>{blurb}</p><div class="paper-links">{links(p)}</div></div></article>''')
 html = '''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zhuokun Chen | Efficient Generative AI</title>

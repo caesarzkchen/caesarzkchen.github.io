@@ -1,12 +1,163 @@
 [
- {"id":"hla-wm","title":"HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models","authors":"Z Chen, F Chen, X Lin, X Wu, J He, J Cai, B Zhuang","self_index":0,"year":2026,"venue":"arXiv preprint","topic":"generation","links":{"Paper":"https://arxiv.org/abs/2610.05739","Project":"https://caesarhhh.github.io/hla-wm/","Code":"https://github.com/Caesarhhh/HLA_"}},
- {"id":"hla","title":"HLA: Expressive Hybrid Linear Attention via Chunk-Wise Dynamic Mixing","authors":"Z Chen, X Lin, X Wu, J He, J Cai, B Zhuang","self_index":0,"year":2026,"venue":"arXiv preprint","topic":"generation reasoning","links":{"Paper":"https://arxiv.org/abs/2610.05842","Project":"https://caesarhhh.github.io/hla/","Code":"https://github.com/Caesarhhh/HLA_"}},
- {"id":"self-aligned-forcing","title":"Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History","authors":"W Wang, Z Chen, Y Dai, B Li, Y Zhang, H Rahmani, Q Ke, J Cai","self_index":1,"self_cofirst":true,"year":2026,"venue":"arXiv preprint","topic":"generation","links":{"Paper":"https://arxiv.org/abs/2609.38114"}},
- {"id":"flashblock","title":"FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion","authors":"Z Chen, J Cai, B Zhuang","self_index":0,"year":2026,"venue":"ICML","topic":"generation","links":{"Scholar":"https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:IjCSPb-OGe4C"}},
- {"id":"dynamics","title":"Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion","authors":"Y He, Z Chen, Y He, Z Tang, Ji Tang, Y Yu, J Cai, B Zhuang","self_index":1,"self_cofirst":true,"year":2026,"venue":"NeurIPS","topic":"generation","links":{"Scholar":"https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:W7OEmFMy1HYC"}},
- {"id":"sparsevar","title":"Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis","authors":"Z Chen, J Fan, Z Yu, B Zhuang, M Tan","self_index":0,"year":2025,"venue":"ICCV","topic":"generation","links":{"Paper":"https://arxiv.org/abs/2507.20454"}},
- {"id":"rstitch","title":"R-Stitch: Dynamic Trajectory Stitching for Efficient Reasoning","authors":"Z Chen, Z Chen, J He, L Sheng, M Tan, J Cai, B Zhuang","self_index":0,"year":2025,"venue":"arXiv preprint","topic":"reasoning","links":{"Paper":"https://arxiv.org/abs/2507.17307","Project":"https://caesarhhh.github.io/R-Stitch/","Code":"https://github.com/Caesarhhh/R_Stitch"}},
- {"id":"fusion","title":"Enhancing Perception Capabilities of Multimodal LLMs with Training-Free Fusion","authors":"Z Chen, J Hu, Z Deng, Y Wang, B Zhuang, M Tan","self_index":0,"year":2024,"venue":"arXiv preprint","topic":"vision","links":{"Paper":"https://arxiv.org/abs/2412.01289"}},
- {"id":"sr","title":"Efficient Test-Time Adaptation for Super-Resolution with Second-Order Degradation and Reconstruction","authors":"Z Deng, Z Chen, S Niu, T Li, B Zhuang, M Tan","self_index":1,"self_cofirst":true,"year":2023,"venue":"NeurIPS","topic":"vision","links":{"Scholar":"https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:d1gkVwhDpl0C"}},
- {"id":"microaction","title":"Temporal Micro-action Localization for Videofluoroscopic Swallowing Study","authors":"X Ruan, M Dai, Z Chen, Z You, Y Zhang, Y Li, Z Dou, M Tan","self_index":2,"self_cofirst":true,"year":2023,"venue":"IEEE Journal of Biomedical and Health Informatics","topic":"vision","links":{"Scholar":"https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:u-x6o8ySG0sC"}}
+  {
+    "id": "hla-wm",
+    "title": "HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models",
+    "authors": "Z Chen, F Chen, X Lin, X Wu, J He, J Cai, B Zhuang",
+    "self_index": 0,
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "topic": "generation",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2610.05739",
+      "Project": "https://caesarhhh.github.io/hla-wm/",
+      "Code": "https://github.com/Caesarhhh/HLA_"
+    },
+    "image": "assets/papers/hla-wm.webp",
+    "image_alt": "Method overview: HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models"
+  },
+  {
+    "id": "hla",
+    "title": "HLA: Expressive Hybrid Linear Attention via Chunk-Wise Dynamic Mixing",
+    "authors": "Z Chen, X Lin, X Wu, J He, J Cai, B Zhuang",
+    "self_index": 0,
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "topic": "generation reasoning",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2610.05842",
+      "Project": "https://caesarhhh.github.io/hla/",
+      "Code": "https://github.com/Caesarhhh/HLA_"
+    },
+    "image": "assets/papers/hla.webp",
+    "image_alt": "Method overview: HLA: Expressive Hybrid Linear Attention via Chunk-Wise Dynamic Mixing"
+  },
+  {
+    "id": "self-aligned-forcing",
+    "title": "Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History",
+    "authors": "W Wang, Z Chen, Y Dai, B Li, Y Zhang, H Rahmani, Q Ke, J Cai",
+    "self_index": 1,
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "topic": "generation",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2609.38114"
+    },
+    "cofirst_indices": [
+      0,
+      1
+    ],
+    "image": "assets/papers/self-aligned-forcing.webp",
+    "image_alt": "Method overview: Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History"
+  },
+  {
+    "id": "flashblock",
+    "title": "FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion",
+    "authors": "Z Chen, J Cai, B Zhuang",
+    "self_index": 0,
+    "year": 2026,
+    "venue": "ICML",
+    "topic": "generation",
+    "links": {
+      "Scholar": "https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:IjCSPb-OGe4C"
+    },
+    "image": "assets/papers/flashblock.webp",
+    "image_alt": "Method overview: FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion"
+  },
+  {
+    "id": "dynamics",
+    "title": "Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion",
+    "authors": "Y He, Z Chen, Y He, Z Tang, Ji Tang, Y Yu, J Cai, B Zhuang",
+    "self_index": 1,
+    "year": 2026,
+    "venue": "NeurIPS",
+    "topic": "generation",
+    "links": {
+      "Scholar": "https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:W7OEmFMy1HYC"
+    },
+    "cofirst_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "sparsevar",
+    "title": "Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis",
+    "authors": "Z Chen, J Fan, Z Yu, B Zhuang, M Tan",
+    "self_index": 0,
+    "year": 2025,
+    "venue": "ICCV",
+    "topic": "generation",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2507.20454"
+    },
+    "image": "assets/papers/sparsevar.webp",
+    "image_alt": "Method overview: Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis"
+  },
+  {
+    "id": "rstitch",
+    "title": "R-Stitch: Dynamic Trajectory Stitching for Efficient Reasoning",
+    "authors": "Z Chen, Z Chen, J He, L Sheng, M Tan, J Cai, B Zhuang",
+    "self_index": 0,
+    "year": 2025,
+    "venue": "arXiv preprint",
+    "topic": "reasoning",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2507.17307",
+      "Project": "https://caesarhhh.github.io/R-Stitch/",
+      "Code": "https://github.com/Caesarhhh/R_Stitch"
+    },
+    "image": "assets/papers/rstitch.webp",
+    "image_alt": "Method overview: R-Stitch: Dynamic Trajectory Stitching for Efficient Reasoning"
+  },
+  {
+    "id": "fusion",
+    "title": "Enhancing Perception Capabilities of Multimodal LLMs with Training-Free Fusion",
+    "authors": "Z Chen, J Hu, Z Deng, Y Wang, B Zhuang, M Tan",
+    "self_index": 0,
+    "year": 2024,
+    "venue": "arXiv preprint",
+    "topic": "vision",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2412.01289"
+    },
+    "image": "assets/papers/fusion.webp",
+    "image_alt": "Method overview: Enhancing Perception Capabilities of Multimodal LLMs with Training-Free Fusion"
+  },
+  {
+    "id": "sr",
+    "title": "Efficient Test-Time Adaptation for Super-Resolution with Second-Order Degradation and Reconstruction",
+    "authors": "Z Deng, Z Chen, S Niu, T Li, B Zhuang, M Tan",
+    "self_index": 1,
+    "year": 2023,
+    "venue": "NeurIPS",
+    "topic": "vision",
+    "links": {
+      "Scholar": "https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:d1gkVwhDpl0C"
+    },
+    "cofirst_indices": [
+      0,
+      1
+    ],
+    "image": "assets/papers/sr.webp",
+    "image_alt": "Method overview: Efficient Test-Time Adaptation for Super-Resolution with Second-Order Degradation and Reconstruction"
+  },
+  {
+    "id": "microaction",
+    "title": "Temporal Micro-action Localization for Videofluoroscopic Swallowing Study",
+    "authors": "X Ruan, M Dai, Z Chen, Z You, Y Zhang, Y Li, Z Dou, M Tan",
+    "self_index": 2,
+    "year": 2023,
+    "venue": "IEEE Journal of Biomedical and Health Informatics",
+    "topic": "vision",
+    "links": {
+      "Scholar": "https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:u-x6o8ySG0sC"
+    },
+    "cofirst_indices": [
+      0,
+      1,
+      2
+    ],
+    "image": "assets/papers/microaction.webp",
+    "image_alt": "Method overview: Temporal Micro-action Localization for Videofluoroscopic Swallowing Study"
+  }
 ]
