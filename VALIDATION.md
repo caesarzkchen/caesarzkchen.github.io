@@ -19,3 +19,8 @@ Browser validation passed (Chromium, 2026-10-12).
 - Removed R-Stitch and Dynamics-Aware (the removal request repeated Dynamics-Aware).
 - One Selected Publications section with 8 papers, replacing separate highlights and full-list sections; Google Scholar profile links to more work.
 - Chromium checks passed: 8 loaded method figures, 7 co-first markers, no overflow at 375/390/768/1024/1440px, filters/search/reset, no JS errors, all 8 papers readable without JS.
+
+2026-10-12 biography and search removal:
+- User-supplied education, supervisors, English name Caesar, and research scope added; all three supervisor homepages verified.
+- Removed publication search UI, script, empty state, and search-specific CSS.
+- Chromium checks passed: 7 visible papers, all images loaded, three biography links, no inputs or scripts, no runtime errors, no horizontal overflow at 375/390/768/1024/1440px.
