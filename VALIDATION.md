@@ -14,3 +14,8 @@ Browser validation passed (Chromium, 2026-10-12).
 - Nine original method figures load successfully; selected research cards also use the corresponding originals. PDF crops visually inspected and source coordinates recorded.
 - Dynamics-Aware figure is pending: NeurIPS poster 154629 links to OpenReview CAkj6hGR35, whose PDF endpoint requires a challenge (HTTP 403).
 - Chromium: no overflow at 375/390/768/1024/1440px, all 12 image elements loaded, search/filter/reset passed, no JavaScript errors.
+
+2026-10-12 selected publications simplification:
+- Removed R-Stitch and Dynamics-Aware (the removal request repeated Dynamics-Aware).
+- One Selected Publications section with 8 papers, replacing separate highlights and full-list sections; Google Scholar profile links to more work.
+- Chromium checks passed: 8 loaded method figures, 7 co-first markers, no overflow at 375/390/768/1024/1440px, filters/search/reset, no JS errors, all 8 papers readable without JS.

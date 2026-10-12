@@ -67,22 +67,6 @@
     "image_alt": "Method overview: FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion"
   },
   {
-    "id": "dynamics",
-    "title": "Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion",
-    "authors": "Y He, Z Chen, Y He, Z Tang, Ji Tang, Y Yu, J Cai, B Zhuang",
-    "self_index": 1,
-    "year": 2026,
-    "venue": "NeurIPS",
-    "topic": "generation",
-    "links": {
-      "Paper": "https://openreview.net/forum?id=CAkj6hGR35"
-    },
-    "cofirst_indices": [
-      0,
-      1
-    ]
-  },
-  {
     "id": "sparsevar",
     "title": "Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis",
     "authors": "Z Chen, J Fan, Z Yu, B Zhuang, M Tan",
@@ -96,22 +80,6 @@
     },
     "image": "assets/papers/sparsevar.webp",
     "image_alt": "Method overview: Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis"
-  },
-  {
-    "id": "rstitch",
-    "title": "R-Stitch: Dynamic Trajectory Stitching for Efficient Reasoning",
-    "authors": "Z Chen, Z Chen, J He, L Sheng, M Tan, J Cai, B Zhuang",
-    "self_index": 0,
-    "year": 2025,
-    "venue": "arXiv preprint",
-    "topic": "reasoning",
-    "links": {
-      "Paper": "https://arxiv.org/abs/2507.17307",
-      "Project": "https://caesarhhh.github.io/R-Stitch/",
-      "Code": "https://github.com/Caesarhhh/R_Stitch"
-    },
-    "image": "assets/papers/rstitch.webp",
-    "image_alt": "Method overview: R-Stitch: Dynamic Trajectory Stitching for Efficient Reasoning"
   },
   {
     "id": "fusion",

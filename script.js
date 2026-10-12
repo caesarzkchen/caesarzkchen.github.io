@@ -12,7 +12,7 @@ function filterPapers() {
     paper.hidden = !matches;
     count += Number(matches);
   });
-  document.querySelector('#result-count').textContent = `${count} publication${count === 1 ? '' : 's'} · newest first`;
+  document.querySelector('#result-count').textContent = `${count} selected publication${count === 1 ? '' : 's'} · newest first`;
   document.querySelector('#empty').hidden = count !== 0;
 }
 buttons.forEach(button => button.addEventListener('click', () => {
