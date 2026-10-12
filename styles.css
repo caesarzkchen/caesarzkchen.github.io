@@ -15,3 +15,16 @@
 
 /* Dated announcements, newest first. */
 #news{border-top:1px solid var(--line);padding-top:33px}.news-list{list-style:none;padding:0;margin:0}.news-list li{padding:12px 0;border-bottom:1px solid var(--line)}.news-list li:last-child{border-bottom:0}.news-list time{font-size:12px;color:var(--muted);white-space:nowrap}.news-list p{font-size:14px;color:var(--muted);margin:0}.news-list strong{font-weight:600;color:var(--ink)}
+
+/* Small, consistent icon badges for section headings and celebrations. */
+.section-heading h2{display:flex;align-items:center;gap:12px}
+.section-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 36px;width:36px;height:36px;border:1px solid #dce5f2;border-radius:11px;background:#edf2f9;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;font-size:20px;font-weight:400;line-height:1;letter-spacing:0}
+.intro-label .section-icon{flex-basis:28px;width:28px;height:28px;border-radius:9px;font-size:17px}
+#news .section-icon{background:#fff3e5;border-color:#f1e2cc}
+#service .section-icon{background:#eaf3ee;border-color:#d7e8de}
+.news-list li{display:flex;align-items:flex-start;gap:12px}
+.news-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 28px;width:28px;height:28px;border-radius:9px;background:#fff3e5;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;font-size:17px;line-height:1}
+.news-list p{flex:1;min-width:0;padding-top:2px}
+@media(max-width:540px){.section-heading h2{gap:10px}.section-icon{flex-basis:32px;width:32px;height:32px;font-size:18px}.news-list li{gap:10px}}
+
+.section-icon svg{width:20px;height:20px;color:var(--blue)}.intro-label .section-icon svg{width:17px;height:17px}#news .section-icon svg{color:#ac742c}#service .section-icon svg{color:#53836a}.news-icon svg{width:21px;height:21px}
