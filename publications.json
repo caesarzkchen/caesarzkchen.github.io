@@ -82,20 +82,6 @@
     "image_alt": "Method overview: Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis"
   },
   {
-    "id": "fusion",
-    "title": "Enhancing Perception Capabilities of Multimodal LLMs with Training-Free Fusion",
-    "authors": "Z Chen, J Hu, Z Deng, Y Wang, B Zhuang, M Tan",
-    "self_index": 0,
-    "year": 2024,
-    "venue": "arXiv preprint",
-    "topic": "vision",
-    "links": {
-      "Paper": "https://arxiv.org/abs/2412.01289"
-    },
-    "image": "assets/papers/fusion.webp",
-    "image_alt": "Method overview: Enhancing Perception Capabilities of Multimodal LLMs with Training-Free Fusion"
-  },
-  {
     "id": "sr",
     "title": "Efficient Test-Time Adaptation for Super-Resolution with Second-Order Degradation and Reconstruction",
     "authors": "Z Deng, Z Chen, S Niu, T Li, B Zhuang, M Tan",
