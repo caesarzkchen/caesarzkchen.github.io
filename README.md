@@ -26,7 +26,7 @@ Primary bibliography: the complete list supplied by the user. Author names remai
 - R-Stitch project / disambiguation of the first author: https://caesarhhh.github.io/R-Stitch/
 - SparseVAR paper: https://arxiv.org/abs/2507.20454
 - HLA project links: the existing sibling `HLA_publish/README.md`.
-- arXiv links for recent papers use IDs supplied by the user. Papers without a confirmed direct URL link to their supplied Scholar entry.
+- arXiv links for recent papers use IDs supplied by the user. Every publication has a direct Paper link. Confirmed official project pages and implementation repositories appear as Project and Code, in that order; Scholar links are not displayed.
 
 ## Hosting
 

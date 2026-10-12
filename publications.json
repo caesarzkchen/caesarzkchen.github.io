@@ -40,7 +40,8 @@
     "venue": "arXiv preprint",
     "topic": "generation",
     "links": {
-      "Paper": "https://arxiv.org/abs/2609.38114"
+      "Paper": "https://arxiv.org/abs/2609.38114",
+      "Project": "https://caesarhhh.github.io/self-aligned-forcing.github.io/"
     },
     "cofirst_indices": [
       0,
@@ -58,7 +59,9 @@
     "venue": "ICML",
     "topic": "generation",
     "links": {
-      "Scholar": "https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:IjCSPb-OGe4C"
+      "Paper": "https://caesarhhh.github.io/FlashBlock/assets/paper/FlashBlock_ICML2026.pdf",
+      "Project": "https://caesarhhh.github.io/FlashBlock/",
+      "Code": "https://github.com/Caesarhhh/Flash_Block"
     },
     "image": "assets/papers/flashblock.webp",
     "image_alt": "Method overview: FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion"
@@ -72,7 +75,7 @@
     "venue": "NeurIPS",
     "topic": "generation",
     "links": {
-      "Scholar": "https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:W7OEmFMy1HYC"
+      "Paper": "https://openreview.net/forum?id=CAkj6hGR35"
     },
     "cofirst_indices": [
       0,
@@ -88,7 +91,8 @@
     "venue": "ICCV",
     "topic": "generation",
     "links": {
-      "Paper": "https://arxiv.org/abs/2507.20454"
+      "Paper": "https://arxiv.org/abs/2507.20454",
+      "Code": "https://github.com/Caesarhhh/SparseVAR"
     },
     "image": "assets/papers/sparsevar.webp",
     "image_alt": "Method overview: Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis"
@@ -132,7 +136,8 @@
     "venue": "NeurIPS",
     "topic": "vision",
     "links": {
-      "Scholar": "https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:d1gkVwhDpl0C"
+      "Paper": "https://arxiv.org/abs/2310.19011",
+      "Code": "https://github.com/DengZeshuai/SRTTA"
     },
     "cofirst_indices": [
       0,
@@ -150,7 +155,7 @@
     "venue": "IEEE Journal of Biomedical and Health Informatics",
     "topic": "vision",
     "links": {
-      "Scholar": "https://scholar.google.com/citations?view_op=view_citation&user=UT9aJX0AAAAJ&citation_for_view=UT9aJX0AAAAJ:u-x6o8ySG0sC"
+      "Paper": "https://tanmingkui.github.io/files/publications/Temporal_MA.pdf"
     },
     "cofirst_indices": [
       0,
