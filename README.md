@@ -29,8 +29,14 @@ Primary bibliography: the complete list supplied by the user. Author names remai
 
 ## Hosting
 
-The directory is ready for static hosting, including GitHub Pages. Publish `index.html`, `styles.css`, `assets/` and `.nojekyll`. Repository: https://github.com/caesarzkchen/caesarzkchen.github.io
+The directory is ready for static hosting, including GitHub Pages. Publish `index.html`, `styles.css`, `assets/`, `.nojekyll`, `robots.txt` and `sitemap.xml`. Repository: https://github.com/caesarzkchen/caesarzkchen.github.io
 
 Website (after enabling GitHub Pages): https://caesarzkchen.github.io/
 
 In repository Settings → Pages, select Deploy from a branch → main → / (root). Public contact email: caesard216@gmail.com. Optional next edit: CV.
+
+## Search metadata
+
+`build.py` generates the page title and description, canonical URL, social sharing metadata, WebSite/ProfilePage/Person JSON-LD, `robots.txt`, and `sitemap.xml`. Keep these aligned with the visible biography and production URL.
+
+Google Search Console ownership verification and an indexing request require the site owner's Google account. If using HTML-tag verification, add the actual tag supplied by Search Console to the head in `build.py` and rebuild.

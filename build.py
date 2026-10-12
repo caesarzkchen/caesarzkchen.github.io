@@ -25,9 +25,20 @@ def paper(p):
 
 html = '''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zhuokun Chen | Efficient Generative AI</title>
-<meta name="description" content="Zhuokun (Caesar) Chen's research on efficient image and video generation and large language models, including sparse and linear attention and token reduction.">
-<meta name="theme-color" content="#f8f9fb"><meta property="og:title" content="Zhuokun Chen | Efficient Generative AI"><meta property="og:description" content="Efficient generative models through sparse and linear attention, token reduction, and related techniques."><meta property="og:type" content="website">
+<title>Zhuokun Chen's Homepage</title>
+<meta name="description" content="Zhuokun Chen (Caesar), PhD student at Monash University. Research in efficient generative AI, image and video generation, and large language models.">
+<meta name="author" content="Zhuokun Chen">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://caesarzkchen.github.io/">
+<meta name="theme-color" content="#f8f9fb">
+<meta property="og:title" content="Zhuokun Chen's Homepage">
+<meta property="og:site_name" content="Zhuokun Chen's Homepage">
+<meta property="og:description" content="Zhuokun Chen (Caesar), PhD student at Monash University. Research in efficient generative AI, image and video generation, and large language models.">
+<meta property="og:url" content="https://caesarzkchen.github.io/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Zhuokun Chen's Homepage">
+<meta name="twitter:description" content="Zhuokun Chen (Caesar), PhD student at Monash University. Research in efficient generative AI, image and video generation, and large language models.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"></head>
 <body><a class="skip-link" href="#main">Skip to content</a><div class="layout">
 <aside class="sidebar"><a href="#about" class="monogram" aria-label="Zhuokun Chen home"><img src="assets/avatar-square.jpg" alt="Gengar avatar" width="88" height="88" decoding="async"></a><a class="side-name" href="#about">Zhuokun Chen</a><p class="side-description">Efficient generative AI<br>Language · Vision · Video</p>
@@ -47,5 +58,41 @@ html = '''<!doctype html>
 # Change the stylesheet URL whenever its content changes to avoid stale CSS.
 css_version = sha256((ROOT / 'styles.css').read_bytes()).hexdigest()[:12]
 html = html.replace('href="styles.css"', f'href="styles.css?v={css_version}"')
+site_url = 'https://caesarzkchen.github.io/'
+structured_data = {
+    '@context': 'https://schema.org',
+    '@graph': [
+        {
+            '@type': 'WebSite', '@id': site_url + '#website',
+            'url': site_url, 'name': "Zhuokun Chen's Homepage",
+            'alternateName': 'Zhuokun Chen',
+            'publisher': {'@id': site_url + '#person'},
+        },
+        {
+            '@type': 'ProfilePage', '@id': site_url + '#webpage',
+            'url': site_url, 'name': "Zhuokun Chen's Homepage",
+            'isPartOf': {'@id': site_url + '#website'},
+            'mainEntity': {'@id': site_url + '#person'},
+        },
+        {
+            '@type': 'Person', '@id': site_url + '#person',
+            'name': 'Zhuokun Chen', 'alternateName': 'Caesar',
+            'url': site_url,
+            'description': 'PhD student at Monash University researching efficient generative AI, image and video generation, and large language models.',
+            'affiliation': {'@type': 'CollegeOrUniversity', 'name': 'Monash University'},
+            'alumniOf': {'@type': 'CollegeOrUniversity', 'name': 'South China University of Technology'},
+            'sameAs': ['https://scholar.google.com/citations?user=UT9aJX0AAAAJ'],
+        },
+    ],
+}
+html = html.replace('</head>', '<script type="application/ld+json">' +
+                    json.dumps(structured_data, ensure_ascii=False, indent=2) +
+                    '</script></head>')
 (ROOT / 'index.html').write_text(html)
+(ROOT / 'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: ' + site_url + 'sitemap.xml\n')
+(ROOT / 'sitemap.xml').write_text(
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    '  <url><loc>' + site_url + '</loc></url>\n</urlset>\n'
+)
 print(f'Built index.html with {len(data)} publications.')
