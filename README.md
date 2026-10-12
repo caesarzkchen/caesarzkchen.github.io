@@ -33,4 +33,4 @@ The directory is ready for static hosting, including GitHub Pages. Publish `inde
 
 Website (after enabling GitHub Pages): https://caesarzkchen.github.io/
 
-In repository Settings → Pages, select Deploy from a branch → main → / (root). Optional next edits: public email and CV.
+In repository Settings → Pages, select Deploy from a branch → main → / (root). Public contact email: caesard216@gmail.com. Optional next edit: CV.
