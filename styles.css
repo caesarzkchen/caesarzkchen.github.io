@@ -8,5 +8,5 @@
 
 .publication-more{font-size:13px;color:var(--muted);margin:-8px 0 24px}.publication-more a{color:var(--blue)}
 
-/* Center the avatar on the face and crop the poster lettering. */
-.monogram{overflow:hidden;flex-shrink:0}.monogram img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.25)}
+/* The image asset is cropped to the original centered square. */
+.monogram{overflow:hidden;flex-shrink:0}.monogram img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
