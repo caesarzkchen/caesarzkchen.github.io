@@ -10,8 +10,8 @@ Open http://127.0.0.1:8000 on the same machine. On a remote machine, forward por
 
 ## Editing
 
-- `publications.json`: 7 selected publications, authors, venues, links, research topics. Author order and venue/year follow the user's supplied Scholar list (2026-10-12). `self_index` identifies Zhuokun Chen.
-- `cofirst_indices` explicitly lists authors marked with equal-contribution asterisks. Per the user’s correction on 2026-10-12, on the three displayed papers where he is not first, mark everyone from the first author through Zhuokun Chen inclusive; preserve the original author order.
+- `publications.json`: 8 selected publications, authors, venues, links, research topics. Author order and venue/year follow the user's supplied Scholar list (2026-10-12). `self_index` identifies Zhuokun Chen.
+- `cofirst_indices` explicitly lists authors marked with equal-contribution asterisks. Per the user’s correction on 2026-10-12, on the four displayed papers where he is not first, mark everyone from the first author through Zhuokun Chen inclusive; preserve the original author order.
 - `build.py`: introduction, News announcements (newest first, dates and authorship supplied by the user), and page structure. Run `python build.py` after editing the data or template. Python standard library only.
 - `styles.css`: responsive layout and visual design.
 
@@ -40,3 +40,5 @@ In repository Settings → Pages, select Deploy from a branch → main → / (ro
 `build.py` generates the page title and description, canonical URL, social sharing metadata, WebSite/ProfilePage/Person JSON-LD, `robots.txt`, and `sitemap.xml`. Keep these aligned with the visible biography and production URL.
 
 Google Search Console ownership verification and an indexing request require the site owner's Google account. If using HTML-tag verification, add the actual tag supplied by Search Console to the head in `build.py` and rebuild.
+
+DASA was restored on 2026-10-23 with its arXiv record (2610.26262), NeurIPS 2026 venue, official project/repository links, and original method figure. Author order and equal contribution were checked against the official project page.

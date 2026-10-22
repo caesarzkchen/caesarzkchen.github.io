@@ -51,6 +51,26 @@
     "image_alt": "Method overview: Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History"
   },
   {
+    "id": "dynamics",
+    "title": "Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion",
+    "authors": "Y He, Z Chen, Y He, Z Tang, J Tang, Y Yu, J Cai, B Zhuang",
+    "self_index": 1,
+    "year": 2026,
+    "venue": "NeurIPS",
+    "topic": "generation",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2610.26262",
+      "Project": "https://yuanyu0.github.io/DASA/",
+      "Code": "https://github.com/Yuanyu0/DASA"
+    },
+    "cofirst_indices": [
+      0,
+      1
+    ],
+    "image": "assets/papers/dynamics.webp",
+    "image_alt": "DASA method overview: dynamics-aware storage and computation framework"
+  },
+  {
     "id": "flashblock",
     "title": "FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion",
     "authors": "Z Chen, J Cai, B Zhuang",

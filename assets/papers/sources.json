@@ -81,8 +81,10 @@
     "source_url": "https://tanmingkui.github.io/files/publications/Temporal_MA.pdf"
   },
   "dynamics": {
-    "status": "awaiting accessible PDF or original figure",
-    "paper_url": "https://openreview.net/forum?id=CAkj6hGR35",
+    "type": "original method figure from official project page",
+    "figure": 2,
+    "source_url": "https://yuanyu0.github.io/DASA/assets/thumbs/figure-02.webp",
+    "paper_url": "https://arxiv.org/abs/2610.26262",
     "conference_url": "https://neurips.cc/virtual/2026/poster/154629"
   }
 }
